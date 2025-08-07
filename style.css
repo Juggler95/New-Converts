@@ -17,7 +17,7 @@ article{
 }
 
 main{
-  width: 80ch;
+  max-width: 80ch;
   margin-top: 5rem;
   margin-bottom: 5rem;
   border: 0.4rem solid black;
@@ -26,6 +26,7 @@ main{
 
   display: flex;
   gap: 2rem;
+  margin-inline: 1rem;
 }
 
 #question-mark-image{
@@ -37,12 +38,15 @@ h1{
 }
 
 section{
+  max-width: 80ch;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  
   border: 0.4rem solid black;
   border-radius: 2rem;
+
   padding: 3rem;
-  width: 80ch;
+  margin-inline: 1rem;
 }
 
 .main-section-paragraph{
@@ -63,3 +67,17 @@ section{
   font-weight: 600;
 }
 
+
+@media(max-width: 630px){
+    /* main{
+      margin-inline: 1rem;
+    } */
+
+    .main-section-paragraph{
+      font-size: 1rem;
+    }
+
+    .section-paragraph{
+      font-size: 1rem;
+    }
+}
