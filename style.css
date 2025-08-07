@@ -33,7 +33,7 @@ main{
   width: 6rem;
 }
 
-main-section-header{
+.main-section-header{
   margin-bottom: 1rem;
 }
 
@@ -68,14 +68,16 @@ section{
 }
 
 
+@media(max-width: 720px){
+  #question-mark-image{
+      display: none;
+    }
+}
+
 @media(max-width: 630px){
     /* main{
       margin-inline: 1rem;
     } */
-    #question-mark-image{
-        display: none;
-      }
-
     .main-section-paragraph{
       font-size: 1rem;
     }
