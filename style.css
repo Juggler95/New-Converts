@@ -33,7 +33,7 @@ main{
   width: 6rem;
 }
 
-h1{
+main-section-header{
   margin-bottom: 1rem;
 }
 
@@ -80,4 +80,37 @@ section{
     .section-paragraph{
       font-size: 1rem;
     }
+}
+
+@media(max-width: 480px){
+  #question-mark-image{
+    display: none;
+  }
+
+  .main-section-header{
+    margin-bottom: 1rem;
+  }
+
+  .main-section-paragraph{
+    font-size: 0.8rem;
+    color: black
+  }
+
+  main{
+    padding: 2rem;
+  }
+
+  section{
+    padding: 2rem;
+  }
+
+  .section-header{
+    margin-bottom: 1rem;
+  }
+
+  .section-paragraph{
+    font-size: 0.8rem;
+    color: black;
+  }
+
 }
