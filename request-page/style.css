@@ -55,10 +55,12 @@ main {
   border: 2px solid gold;
   border-radius: 1rem;
   text-align: center;
-  padding-top: 1.2rem;
+  padding-top: 0.8rem;
   color: black;
   text-decoration: none;
   cursor: pointer;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 #input-container {
@@ -66,7 +68,7 @@ main {
   border-radius: 2rem;
   padding: 1.5rem;
   border: 2px solid gold;
-  margin-left: 2rem;
+  margin-inline: 2rem;
 }
 
 label {
@@ -100,6 +102,10 @@ input:user-valid {
   border: 2px lime solid;
 }
 
+.hidden-toggle {
+  display: none;
+}
+
 #submit-button {
   align-self: start;
   margin-top: 2rem;
@@ -113,4 +119,35 @@ input:user-valid {
   font-size: 1rem;
   font-weight: bolder;
   cursor: pointer;
+}
+
+@media (max-width: 710px) {
+  #form-container {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 2rem;
+  }
+
+  .grid-column2 {
+    display: none;
+  }
+
+  .hidden-toggle {
+    display: inline-block;
+  }
+
+  .back-button {
+    padding-inline: 4rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  #form-container {
+    margin: 0;
+  }
 }
