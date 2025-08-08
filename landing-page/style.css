@@ -1,26 +1,49 @@
-*{
+* {
   margin: 0;
   padding: 0;
   outline: none;
   border: none;
 }
 
-body{
+body {
+  display: flex;
   text-align: center;
   justify-content: center;
 }
 
-article{
+.hero {
+  max-width: 80ch;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  border: 0.2rem solid gold;
+  margin-top: 3rem;
+  padding-inline: 20rem;
+  background-color: lightgray;
+}
+
+.request-button {
+  background-color: darkred;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  color: white;
+  text-decoration: none;
+  border: 0.2rem solid gold;
+}
+
+article {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-main{
+main {
   max-width: 80ch;
   margin-top: 5rem;
   margin-bottom: 5rem;
-  border: 0.4rem solid black;
+  border: 0.4rem solid gold;
   border-radius: 2rem;
   padding: 3rem;
 
@@ -29,87 +52,86 @@ main{
   margin-inline: 1rem;
 }
 
-#question-mark-image{
+#question-mark-image {
   width: 6rem;
 }
 
-.main-section-header{
+.main-section-header {
   margin-bottom: 1rem;
 }
 
-section{
+section {
   max-width: 80ch;
   margin-top: 5rem;
   margin-bottom: 5rem;
-  
-  border: 0.4rem solid black;
+
+  border: 0.4rem solid gold;
   border-radius: 2rem;
 
   padding: 3rem;
   margin-inline: 1rem;
 }
 
-.main-section-paragraph{
+.main-section-paragraph {
   color: gray;
   font-weight: 600;
   font-size: 1.5rem;
 }
 
-.section-header{
+.section-header {
   margin-bottom: 1rem;
   font-weight: 600;
   font-size: 2rem;
 }
 
-.section-paragraph{
+.section-paragraph {
   color: gray;
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-
-@media(max-width: 720px){
-  #question-mark-image{
-      display: none;
+@media (max-width: 720px) {
+  #question-mark-image {
+    display: none;
   }
 }
 
-@media(max-width: 630px){
-    /* main{
+@media (max-width: 630px) {
+  /* main{
       margin-inline: 1rem;
     } */
-    .main-section-paragraph{
-      font-size: 1.3rem;
-    }
+  .main-section-paragraph {
+    font-size: 1.3rem;
+  }
 
-    .section-paragraph{
-      font-size: 1.3rem;
-    }
+  .section-paragraph {
+    font-size: 1.3rem;
+  }
 }
 
-@media(max-width: 480px){
-  .main-section-header{
+@media (max-width: 480px) {
+  .main-section-header {
     margin-bottom: 1rem;
   }
 
-  .main-section-paragraph{
+  .main-section-paragraph {
     font-size: 0.8rem;
-    color: black
+    color: black;
   }
 
-  main{
+  main {
     padding: 2rem;
   }
 
-  section{
+  section {
     padding: 2rem;
   }
 
-  .section-header{
+  .section-header {
     margin-bottom: 1rem;
   }
 
-  .section-paragraph{
+  .section-paragraph {
     font-size: 0.8rem;
     color: black;
   }
