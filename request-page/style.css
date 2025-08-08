@@ -66,6 +66,7 @@ main {
   border-radius: 2rem;
   padding: 1.5rem;
   border: 2px solid gold;
+  margin-left: 2rem;
 }
 
 label {
