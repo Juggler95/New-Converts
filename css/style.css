@@ -13,15 +13,15 @@ body {
 
 .hero {
   max-width: 80ch;
-  min-height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background-color: lightred;
+
+  /* border: 0.4rem solid gold; */
   border-radius: 2rem;
-  border: 0.2rem solid gold;
-  margin-top: 3rem;
-  padding-inline: 20rem;
-  background-color: lightgray;
+
+  padding: 3rem;
+  margin-inline: 1rem;
 }
 
 .request-button {
