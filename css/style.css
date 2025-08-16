@@ -158,7 +158,7 @@ section {
 }
 
 .left-side-image-container img {
-  justify-self: right;
+  justify-self: end;
 }
 
 .right-side-image-container {
@@ -193,6 +193,10 @@ section {
   .hero-paragraph {
     font-size: 0.8rem;
   }
+
+  .people-image {
+    height: 200px;
+  }
 }
 
 @media (max-width: 630px) {
@@ -205,6 +209,10 @@ section {
 
   .section-paragraph {
     font-size: 1.3rem;
+  }
+
+  .people-image {
+    height: 160px;
   }
 }
 
@@ -242,10 +250,18 @@ section {
   .hero-paragraph {
     font-size: 0.6rem;
   }
+
+  .people-image {
+    height: 120px;
+  }
 }
 
 @media (max-width: 380px) {
   .hero-header {
     font-size: 1.2rem;
+  }
+
+  .people-image {
+    height: 80px;
   }
 }
